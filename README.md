@@ -23,12 +23,12 @@ Release automation for FFXIV plugins that computes manifest metadata, preserves 
 
 ## Current focus
 
-I am experimenting with Terraform-managed Okta configuration so identity changes can move from click-driven wizards toward reviewable code. Recent platform work has included AWS Lambda, Kubernetes, Terraform/Terragrunt, and Temporal workflows.
+I am experimenting with Terraform-managed Okta configuration so identity changes can move from click-driven wizards toward reviewable code. Recent platform work has included AWS Lambda, Kubernetes, Terraform, Terragrunt, and Temporal workflows.
 
 I also deployed Hindsight on Kubernetes to give an internal team shared context across AI workflows, and I build local-first memory and session-continuity tooling in my homelab.
 
 ## Tools I reach for
 
-Okta · Workspace ONE · Google Workspace · Slack · Python · PowerShell · REST APIs · AWS · Kubernetes · Temporal · Terraform/Terragrunt · Docker · PostgreSQL
+Okta · Workspace ONE · Google Workspace · Slack · Python · PowerShell · REST APIs · AWS · Kubernetes · Temporal · Terraform · Terragrunt · Docker · PostgreSQL
 
 [LinkedIn](https://linkedin.com/in/alice-l-248502224)
