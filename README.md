@@ -6,7 +6,7 @@ I turn recurring operational problems into systems that are easier to trust and 
 
 [LinkedIn](https://linkedin.com/in/alice-l-248502224)
 
-![A systems landscape showing source attributes flowing through policy and lifecycle orchestration to SaaS, endpoint, and cloud state.](./assets/systems-landscape.svg?rev=59144f9)
+![A systems landscape showing source attributes flowing through policy and lifecycle orchestration to SaaS, endpoint, and cloud state.](https://raw.githubusercontent.com/RealEphemeralEuphoria/RealEphemeralEuphoria/59144f9/assets/systems-landscape.svg)
 
 ## Identity platform work
 
