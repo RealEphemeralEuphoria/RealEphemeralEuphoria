@@ -36,7 +36,7 @@ Release automation for FFXIV plugins that computes manifest metadata, preserves 
 
 I am experimenting with Terraform-managed Okta configuration so identity changes can move from click-driven wizards toward reviewable code. Recent platform work has included AWS Lambda, Kubernetes, Terraform, Terragrunt, and Temporal workflows.
 
-I support AI-enabled delivery infrastructure and deployed Hindsight on Kubernetes so internal teams can share operational context across AI workflows. I use AI as workflow leverage with human review, access controls, and clear recovery paths—not as an ungoverned substitute for operations.
+I support AI-enabled delivery infrastructure and deployed Hindsight on Kubernetes so internal teams can share operational context across AI workflows. I am a proponent of local-first, self-hosted AI systems and open tooling: alongside hosted platforms such as OpenAI, Anthropic, and Cursor, I build vendor-independent alternatives where data control, portability, and shared team context matter. I use AI as workflow leverage with human review, access controls, and clear recovery paths—not as an ungoverned substitute for operations.
 
 <details>
 <summary><strong>Platform toolkit</strong></summary>
@@ -45,5 +45,6 @@ Identity: Okta · Microsoft Entra ID · JumpCloud · SAML · OAuth · OIDC · SC
 SaaS &amp; endpoint: Google Workspace · Slack · Microsoft 365 · Workspace ONE · Kandji<br>
 Automation: Python · PowerShell · REST APIs · Temporal<br>
 Infrastructure: AWS · Kubernetes · Terraform · Terragrunt · Docker · PostgreSQL
+AI systems: Hindsight · self-hosted models · open tooling · local-first workflows
 
 </details>
