@@ -1,18 +1,18 @@
 # Alice
 
-**IT engineer for identity infrastructure and lifecycle automation.**
+**IT and security engineer for identity, endpoints, and lifecycle automation.**
 
-I make access changes and onboarding less manual with clear policy, safe defaults, useful logs, and recovery paths.
+I make access changes, onboarding, and endpoint management less manual with clear policy, safe defaults, useful logs, and recovery paths.
 
 [LinkedIn](https://linkedin.com/in/alice-l-248502224)
 
 ![A systems landscape showing source attributes flowing through policy and lifecycle orchestration to SaaS, endpoint, and cloud state.](./assets/identity-lifecycle-flow.svg)
 
-## Identity platform work
+## Selected experience
 
-| Identity architecture | Lifecycle automation | Reliability &amp; controls |
+| Identity architecture | Lifecycle automation | Security &amp; endpoints |
 | --- | --- | --- |
-| Phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations. | HRIS-to-Okta onboarding cut setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms. | Security triage and remediation cut response time from 4 hours to 15 minutes. Backed by monitoring, audit evidence, runbooks, and recovery paths. |
+| Phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations. | HRIS-to-Okta onboarding cut setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms. | Healthcare security engineering across 200+ facilities and 10,000+ managed devices. Deployed Kandji MDM for 300+ MacBooks with automated patching and 95% compliance; built triage and remediation that cut response from 4 hours to 15 minutes. |
 
 ## Selected public work
 
@@ -38,7 +38,9 @@ I deployed Hindsight on Kubernetes for shared AI workflow context. I favor local
 <summary><strong>Platform toolkit</strong></summary>
 
 Identity: Okta · Microsoft Entra ID · JumpCloud · SAML · OAuth · OIDC · SCIM · RBAC<br>
-SaaS &amp; endpoint: Google Workspace · Slack · Microsoft 365 · Workspace ONE · Kandji<br>
+SaaS: Google Workspace · Slack · Microsoft 365<br>
+Endpoint: Kandji MDM · Workspace ONE<br>
+Security: SIEM · HITRUST · CIS benchmarks · endpoint monitoring · incident response<br>
 Automation: Python · PowerShell · REST APIs · Temporal<br>
 Infrastructure: AWS · Kubernetes · Terraform · Terragrunt · Docker · PostgreSQL
 AI systems: Hindsight · self-hosted models · open tooling · local-first workflows
