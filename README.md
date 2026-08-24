@@ -1,8 +1,8 @@
 # Alice
 
-**IT engineer building identity infrastructure, lifecycle automation, and reliable internal platforms.**
+**IT engineer focused on identity infrastructure, lifecycle automation, and reliable internal systems.**
 
-I turn recurring operational problems into systems that are easier to trust and cheaper to operate: explicit policy, safe defaults, observable workflows, and less manual work for the next person.
+A lot of my work starts with the same kinds of problems: access changes, onboarding, integrations that need babysitting, and processes that only one person understands. I build systems with one place for policy, safe defaults, useful logs, less manual upkeep, and a clear recovery path when something breaks.
 
 [LinkedIn](https://linkedin.com/in/alice-l-248502224)
 
@@ -12,11 +12,11 @@ I turn recurring operational problems into systems that are easier to trust and 
 
 | Identity architecture | Lifecycle automation | Reliability &amp; controls |
 | --- | --- | --- |
-| Led a phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations, including attribute mappings and authorization troubleshooting. | Built HRIS-to-Okta onboarding that reduced setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms for lifecycle, licensing, compliance, and operational data sync. | Built security triage and remediation workflows that reduced response time from 4 hours to 15 minutes. Pair automation with monitoring, audit evidence, runbooks, and recovery paths. |
+| Led a phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations, including attribute mappings and authorization troubleshooting. | Built HRIS-to-Okta onboarding that reduced setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms for lifecycle, licensing, compliance, and operational data sync. | Built security triage and remediation workflows that reduced response time from 4 hours to 15 minutes. That work is backed by monitoring, audit evidence, runbooks, and recovery paths. |
 
-## Platform point of view
+## How I approach identity
 
-I treat identity as a platform, not a collection of individual integrations: start with accurate source attributes, make role and policy decisions explicit, orchestrate joiner/mover/leaver changes durably, and preserve evidence and recovery paths with every change. The result should be a safer default path for people and less manual work for the operators who support them.
+Identity touches nearly every internal system. I start with a reliable source of truth, make roles and policies explicit, and automate joiner, mover, and leaver changes so people are not fixing the same account problems by hand. Workflows need logs, clear ownership, and a way to recover when something goes wrong. The goal is a safer default path and less manual work for the operators who support it.
 
 ## Selected public work
 
@@ -36,7 +36,9 @@ Release automation for FFXIV plugins that computes manifest metadata, preserves 
 
 I am experimenting with Terraform-managed Okta configuration so identity changes can move from click-driven wizards toward reviewable code. Recent platform work has included AWS Lambda, Kubernetes, Terraform, Terragrunt, and Temporal workflows.
 
-I support AI-enabled delivery infrastructure and deployed Hindsight on Kubernetes so internal teams can share operational context across AI workflows. I am a proponent of local-first, self-hosted AI systems and open tooling: alongside hosted platforms such as OpenAI, Anthropic, and Cursor, I build vendor-independent alternatives where data control, portability, and shared team context matter. I use AI as workflow leverage with human review, access controls, and clear recovery paths—not as an ungoverned substitute for operations.
+I support AI-enabled delivery infrastructure and deployed Hindsight on Kubernetes so internal teams can share operational context across AI workflows. I prefer local-first, self-hosted AI systems and open tooling. I build vendor-independent alternatives when data control, portability, or shared team context matter. OpenAI, Anthropic, and Cursor can be useful, but I do not want a team's workflow or knowledge trapped in one vendor ecosystem.
+
+I use AI as workflow leverage when it has human review, access controls, and a clear recovery path. It is not a substitute for operations.
 
 <details>
 <summary><strong>Platform toolkit</strong></summary>
