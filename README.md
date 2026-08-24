@@ -1,8 +1,8 @@
 # Alice
 
-**IT engineer focused on identity infrastructure, lifecycle automation, and reliable internal systems.**
+**IT engineer for identity infrastructure and lifecycle automation.**
 
-A lot of my work starts with the same kinds of problems: access changes, onboarding, integrations that need babysitting, and processes that only one person understands. I build systems with one place for policy, safe defaults, useful logs, less manual upkeep, and a clear recovery path when something breaks.
+I make access changes and onboarding less manual with clear policy, safe defaults, useful logs, and recovery paths.
 
 [LinkedIn](https://linkedin.com/in/alice-l-248502224)
 
@@ -12,11 +12,7 @@ A lot of my work starts with the same kinds of problems: access changes, onboard
 
 | Identity architecture | Lifecycle automation | Reliability &amp; controls |
 | --- | --- | --- |
-| Led a phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations, including attribute mappings and authorization troubleshooting. | Built HRIS-to-Okta onboarding that reduced setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms for lifecycle, licensing, compliance, and operational data sync. | Built security triage and remediation workflows that reduced response time from 4 hours to 15 minutes. That work is backed by monitoring, audit evidence, runbooks, and recovery paths. |
-
-## How I approach identity
-
-Identity touches nearly every internal system. I start with a reliable source of truth, make roles and policies explicit, and automate joiner, mover, and leaver changes so people are not fixing the same account problems by hand. Workflows need logs, clear ownership, and a way to recover when something goes wrong. The goal is a safer default path and less manual work for the operators who support it.
+| Phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations. | HRIS-to-Okta onboarding cut setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms. | Security triage and remediation cut response time from 4 hours to 15 minutes. Backed by monitoring, audit evidence, runbooks, and recovery paths. |
 
 ## Selected public work
 
@@ -24,21 +20,19 @@ Identity touches nearly every internal system. I start with a reliable source of
 
 <a href="https://github.com/RealEphemeralEuphoria/mesh-guide"><img src="https://raw.githubusercontent.com/RealEphemeralEuphoria/mesh-guide/main/docs/mesh-guide.png" alt="Meshtastic Hardware Guide interface" width="680"></a>
 
-Independent hardware research in an offline-first, single-file web application. It brings device comparisons, radio constraints, power, antennas, sensors, and self-build paths into one field-friendly guide.
+Offline-first Meshtastic hardware research covering devices, radio constraints, power, antennas, sensors, and self-build paths.
 
 ### [Dalamud Release Skill](https://github.com/RealEphemeralEuphoria/dalamud-release-skill)
 
 [![Dalamud release workflow](./assets/dalamud-release-flow.svg)](https://github.com/RealEphemeralEuphoria/dalamud-release-skill)
 
-Release automation for FFXIV plugins that computes manifest metadata, preserves intentionally small diffs, and makes stable, testing, and promotion workflows repeatable.
+FFXIV plugin release automation for manifest metadata, small reviewable diffs, and repeatable testing-to-stable promotion.
 
 ## Current focus
 
-I am experimenting with Terraform-managed Okta configuration so identity changes can move from click-driven wizards toward reviewable code. Recent platform work has included AWS Lambda, Kubernetes, Terraform, Terragrunt, and Temporal workflows.
+I'm experimenting with Terraform-managed Okta configuration so identity changes can move into reviewable code. Recent platform work: AWS Lambda, Kubernetes, Terraform, Terragrunt, and Temporal workflows.
 
-I support AI-enabled delivery infrastructure and deployed Hindsight on Kubernetes so internal teams can share operational context across AI workflows. I prefer local-first, self-hosted AI systems and open tooling. I build vendor-independent alternatives when data control, portability, or shared team context matter. OpenAI, Anthropic, and Cursor can be useful, but I do not want a team's workflow or knowledge trapped in one vendor ecosystem.
-
-I use AI as workflow leverage when it has human review, access controls, and a clear recovery path. It is not a substitute for operations.
+I deployed Hindsight on Kubernetes for shared AI workflow context. I favor local-first, self-hosted, vendor-independent tooling alongside OpenAI, Anthropic, and Cursor, with human review, access controls, and recovery paths.
 
 <details>
 <summary><strong>Platform toolkit</strong></summary>

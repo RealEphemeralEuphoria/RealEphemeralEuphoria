@@ -58,7 +58,7 @@
     <rect class="panel" x="608" y="132" width="204" height="94" rx="16"/>
     <circle cx="638" cy="162" r="8" fill="#14b8a6"/>
     <text class="label" x="656" y="166">JML ORCHESTRATION</text>
-    <text class="body" x="632" y="194">Provision &amp; recover</text>
+    <text class="body" x="632" y="194">Automated lifecycle</text>
     <text class="detail" x="632" y="213">durable, observable handoffs</text>
   </g>
 
