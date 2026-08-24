@@ -1,23 +1,38 @@
 # Alice
 
-IT engineer building identity systems, automation, and reliable internal platforms.
+**IT engineer building identity systems, automation, and reliable internal platforms.**
 
 I turn recurring operational problems into systems that are easier to trust and cheaper to operate: explicit policy, safe defaults, observable workflows, and less manual work for the next person.
 
-## What I work on
+[LinkedIn](https://linkedin.com/in/alice-l-248502224)
 
-- Identity and SaaS lifecycle automation that connects source-of-truth attributes to access
-- Internal platforms with durable workflows, useful audit evidence, and safe failure modes
-- Cloud and container infrastructure that stays maintainable as its workload grows
-- AI tooling that improves real team workflows instead of adding another disconnected interface
+![A systems landscape showing identity signals flowing through policy and durable workflows to access and resources.](./assets/systems-landscape.svg)
+
+## How I think in systems
+
+```mermaid
+flowchart LR
+    A[Identity attributes] --> B[Policy and lifecycle rules]
+    B --> C[Durable workflows]
+    C --> D[Access and infrastructure]
+    C --> E[Audit evidence and recovery]
+```
+
+| Identity & lifecycle | Automation & workflow | Cloud & platform |
+| --- | --- | --- |
+| Connect source-of-truth attributes to the access people need. | Replace click-driven repetition with reviewable, observable handoffs. | Build infrastructure that remains understandable as the workload grows. |
 
 ## Selected public work
 
 ### [Meshtastic Hardware Guide](https://github.com/RealEphemeralEuphoria/mesh-guide)
 
-An independent hardware research project delivered as an offline-first, single-file web application. It brings device comparisons, radio constraints, power, antennas, sensors, and self-build paths into one field-friendly guide.
+<a href="https://github.com/RealEphemeralEuphoria/mesh-guide"><img src="https://raw.githubusercontent.com/RealEphemeralEuphoria/mesh-guide/main/docs/mesh-guide.png" alt="Meshtastic Hardware Guide interface" width="680"></a>
+
+Independent hardware research in an offline-first, single-file web application. It brings device comparisons, radio constraints, power, antennas, sensors, and self-build paths into one field-friendly guide.
 
 ### [Dalamud Release Skill](https://github.com/RealEphemeralEuphoria/dalamud-release-skill)
+
+[![Dalamud release workflow](./assets/dalamud-release-flow.svg)](https://github.com/RealEphemeralEuphoria/dalamud-release-skill)
 
 Release automation for FFXIV plugins that computes manifest metadata, preserves intentionally small diffs, and makes stable, testing, and promotion workflows repeatable.
 
@@ -27,8 +42,11 @@ I am experimenting with Terraform-managed Okta configuration so identity changes
 
 I also deployed Hindsight on Kubernetes to give an internal team shared context across AI workflows, and I build local-first memory and session-continuity tooling in my homelab.
 
-## Tools I reach for
+<details>
+<summary><strong>Platform toolkit</strong></summary>
 
-Okta · Workspace ONE · Google Workspace · Slack · Python · PowerShell · REST APIs · AWS · Kubernetes · Temporal · Terraform · Terragrunt · Docker · PostgreSQL
+Identity: Okta · Workspace ONE · Google Workspace · Slack<br>
+Automation: Python · PowerShell · REST APIs · Temporal<br>
+Infrastructure: AWS · Kubernetes · Terraform · Terragrunt · Docker · PostgreSQL
 
-[LinkedIn](https://linkedin.com/in/alice-l-248502224)
+</details>

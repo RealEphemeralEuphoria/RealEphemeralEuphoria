@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Identity-driven systems landscape</title>
+  <desc id="description">Identity attributes flow through policy and durable workflows to provision access and infrastructure resources.</desc>
+  <defs>
+    <linearGradient id="flow" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0891b2"/>
+    </marker>
+    <style><![CDATA[
+      :root { --canvas: #f6f8fa; --panel: #ffffff; --border: #d0d7de; --ink: #24292f; --muted: #57606a; --grid: #d8dee4; }
+      @media (prefers-color-scheme: dark) { :root { --canvas: #0d1117; --panel: #161b22; --border: #30363d; --ink: #f0f6fc; --muted: #8b949e; --grid: #21262d; } }
+      .canvas { fill: var(--canvas); }
+      .panel { fill: var(--panel); stroke: var(--border); stroke-width: 1.25; }
+      .grid { stroke: var(--grid); stroke-width: 1; opacity: .55; }
+      .eyebrow { fill: #7c3aed; font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 1.8px; }
+      .headline { fill: var(--ink); font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .label { fill: var(--muted); font: 600 10px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 1.4px; }
+      .body { fill: var(--ink); font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .detail { fill: var(--muted); font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    ]]></style>
+  </defs>
+
+  <rect class="canvas" width="1200" height="300" rx="20"/>
+  <g class="grid">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
+    <path d="M80 0V300M200 0V300M320 0V300M440 0V300M560 0V300M680 0V300M800 0V300M920 0V300M1040 0V300M1160 0V300"/>
+  </g>
+
+  <text class="eyebrow" x="48" y="40">SYSTEMS I DESIGN</text>
+  <text class="headline" x="48" y="68">Identity-driven automation with visible, durable control points.</text>
+
+  <g fill="none" stroke="url(#flow)" stroke-linecap="round" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M252 179H328"/>
+    <path d="M532 179H608"/>
+    <path d="M812 179H888"/>
+  </g>
+
+  <g>
+    <rect class="panel" x="48" y="132" width="204" height="94" rx="16"/>
+    <circle cx="78" cy="162" r="8" fill="#7c3aed"/>
+    <text class="label" x="96" y="166">IDENTITY SIGNALS</text>
+    <text class="body" x="72" y="194">Attributes &amp; intent</text>
+    <text class="detail" x="72" y="213">source-of-truth inputs</text>
+  </g>
+
+  <g>
+    <rect class="panel" x="328" y="132" width="204" height="94" rx="16"/>
+    <circle cx="358" cy="162" r="8" fill="#8b5cf6"/>
+    <text class="label" x="376" y="166">POLICY</text>
+    <text class="body" x="352" y="194">Rules &amp; lifecycle</text>
+    <text class="detail" x="352" y="213">reviewable decisions</text>
+  </g>
+
+  <g>
+    <rect class="panel" x="608" y="132" width="204" height="94" rx="16"/>
+    <circle cx="638" cy="162" r="8" fill="#14b8a6"/>
+    <text class="label" x="656" y="166">ORCHESTRATION</text>
+    <text class="body" x="632" y="194">Durable workflows</text>
+    <text class="detail" x="632" y="213">observable handoffs</text>
+  </g>
+
+  <g>
+    <rect class="panel" x="888" y="132" width="264" height="94" rx="16"/>
+    <circle cx="918" cy="162" r="8" fill="#0891b2"/>
+    <text class="label" x="936" y="166">DELIVERY</text>
+    <text class="body" x="912" y="194">Access &amp; resources</text>
+    <text class="detail" x="912" y="213">SaaS, cloud, and platform state</text>
+  </g>
+</svg>
