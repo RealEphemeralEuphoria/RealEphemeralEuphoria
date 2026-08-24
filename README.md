@@ -1,4 +1,4 @@
-# Alice Lovett
+# Alice
 
 IT engineer building identity systems, automation, and reliable internal platforms.
 
