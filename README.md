@@ -1,26 +1,22 @@
 # Alice
 
-**IT engineer building identity systems, automation, and reliable internal platforms.**
+**IT engineer building identity infrastructure, lifecycle automation, and reliable internal platforms.**
 
 I turn recurring operational problems into systems that are easier to trust and cheaper to operate: explicit policy, safe defaults, observable workflows, and less manual work for the next person.
 
 [LinkedIn](https://linkedin.com/in/alice-l-248502224)
 
-![A systems landscape showing identity signals flowing through policy and durable workflows to access and resources.](./assets/systems-landscape.svg)
+![A systems landscape showing source attributes flowing through policy and lifecycle orchestration to SaaS, endpoint, and cloud state.](./assets/systems-landscape.svg)
 
-## How I think in systems
+## Identity platform work
 
-```mermaid
-flowchart LR
-    A[Identity attributes] --> B[Policy and lifecycle rules]
-    B --> C[Durable workflows]
-    C --> D[Access and infrastructure]
-    C --> E[Audit evidence and recovery]
-```
-
-| Identity & lifecycle | Automation & workflow | Cloud & platform |
+| Identity architecture | Lifecycle automation | Reliability &amp; controls |
 | --- | --- | --- |
-| Connect source-of-truth attributes to the access people need. | Replace click-driven repetition with reviewable, observable handoffs. | Build infrastructure that remains understandable as the workload grows. |
+| Led a phased JumpCloud-to-Okta migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations, including attribute mappings and authorization troubleshooting. | Built HRIS-to-Okta onboarding that reduced setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms for lifecycle, licensing, compliance, and operational data sync. | Built security triage and remediation workflows that reduced response time from 4 hours to 15 minutes. Pair automation with monitoring, audit evidence, runbooks, and recovery paths. |
+
+## Platform point of view
+
+I treat identity as a platform, not a collection of individual integrations: start with accurate source attributes, make role and policy decisions explicit, orchestrate joiner/mover/leaver changes durably, and preserve evidence and recovery paths with every change. The result should be a safer default path for people and less manual work for the operators who support them.
 
 ## Selected public work
 
@@ -40,12 +36,13 @@ Release automation for FFXIV plugins that computes manifest metadata, preserves 
 
 I am experimenting with Terraform-managed Okta configuration so identity changes can move from click-driven wizards toward reviewable code. Recent platform work has included AWS Lambda, Kubernetes, Terraform, Terragrunt, and Temporal workflows.
 
-I also deployed Hindsight on Kubernetes to give an internal team shared context across AI workflows, and I build local-first memory and session-continuity tooling in my homelab.
+I support AI-enabled delivery infrastructure and deployed Hindsight on Kubernetes so internal teams can share operational context across AI workflows. I use AI as workflow leverage with human review, access controls, and clear recovery paths—not as an ungoverned substitute for operations.
 
 <details>
 <summary><strong>Platform toolkit</strong></summary>
 
-Identity: Okta · Workspace ONE · Google Workspace · Slack<br>
+Identity: Okta · Microsoft Entra ID · JumpCloud · SAML · OAuth · OIDC · SCIM · RBAC<br>
+SaaS &amp; endpoint: Google Workspace · Slack · Microsoft 365 · Workspace ONE · Kandji<br>
 Automation: Python · PowerShell · REST APIs · Temporal<br>
 Infrastructure: AWS · Kubernetes · Terraform · Terragrunt · Docker · PostgreSQL
 

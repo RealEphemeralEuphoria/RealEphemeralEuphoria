@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
-  <title id="title">Identity-driven systems landscape</title>
-  <desc id="description">Identity attributes flow through policy and durable workflows to provision access and infrastructure resources.</desc>
+  <title id="title">Identity platform systems landscape</title>
+  <desc id="description">Source attributes flow through role and policy modeling and joiner, mover, leaver orchestration to SaaS, endpoint, and cloud state.</desc>
   <defs>
     <linearGradient id="flow" x1="0" x2="1">
       <stop offset="0" stop-color="#7c3aed"/>
@@ -30,7 +30,7 @@
   </g>
 
   <text class="eyebrow" x="48" y="40">SYSTEMS I DESIGN</text>
-  <text class="headline" x="48" y="68">Identity-driven automation with visible, durable control points.</text>
+  <text class="headline" x="48" y="68">Identity infrastructure with visible, durable control points.</text>
 
   <g fill="none" stroke="url(#flow)" stroke-linecap="round" stroke-width="4" marker-end="url(#arrow)">
     <path d="M252 179H328"/>
@@ -41,32 +41,32 @@
   <g>
     <rect class="panel" x="48" y="132" width="204" height="94" rx="16"/>
     <circle cx="78" cy="162" r="8" fill="#7c3aed"/>
-    <text class="label" x="96" y="166">IDENTITY SIGNALS</text>
+    <text class="label" x="96" y="166">SOURCE OF TRUTH</text>
     <text class="body" x="72" y="194">Attributes &amp; intent</text>
-    <text class="detail" x="72" y="213">source-of-truth inputs</text>
+    <text class="detail" x="72" y="213">authoritative inputs</text>
   </g>
 
   <g>
     <rect class="panel" x="328" y="132" width="204" height="94" rx="16"/>
     <circle cx="358" cy="162" r="8" fill="#8b5cf6"/>
-    <text class="label" x="376" y="166">POLICY</text>
-    <text class="body" x="352" y="194">Rules &amp; lifecycle</text>
-    <text class="detail" x="352" y="213">reviewable decisions</text>
+    <text class="label" x="376" y="166">ROLE &amp; POLICY</text>
+    <text class="body" x="352" y="194">Explicit access model</text>
+    <text class="detail" x="352" y="213">least-privilege patterns</text>
   </g>
 
   <g>
     <rect class="panel" x="608" y="132" width="204" height="94" rx="16"/>
     <circle cx="638" cy="162" r="8" fill="#14b8a6"/>
-    <text class="label" x="656" y="166">ORCHESTRATION</text>
-    <text class="body" x="632" y="194">Durable workflows</text>
-    <text class="detail" x="632" y="213">observable handoffs</text>
+    <text class="label" x="656" y="166">JML ORCHESTRATION</text>
+    <text class="body" x="632" y="194">Provision, change, recover</text>
+    <text class="detail" x="632" y="213">durable, observable handoffs</text>
   </g>
 
   <g>
     <rect class="panel" x="888" y="132" width="264" height="94" rx="16"/>
     <circle cx="918" cy="162" r="8" fill="#0891b2"/>
-    <text class="label" x="936" y="166">DELIVERY</text>
-    <text class="body" x="912" y="194">Access &amp; resources</text>
-    <text class="detail" x="912" y="213">SaaS, cloud, and platform state</text>
+    <text class="label" x="936" y="166">TARGET STATE</text>
+    <text class="body" x="912" y="194">SaaS, endpoint &amp; cloud</text>
+    <text class="detail" x="912" y="213">access and resource state</text>
   </g>
 </svg>
