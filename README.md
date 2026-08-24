@@ -12,7 +12,7 @@ I turn recurring operational problems into systems that are easier to trust and 
 
 | Identity architecture | Lifecycle automation | Reliability &amp; controls |
 | --- | --- | --- |
-| Led a phased JumpCloud-to-Okta migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations, including attribute mappings and authorization troubleshooting. | Built HRIS-to-Okta onboarding that reduced setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms for lifecycle, licensing, compliance, and operational data sync. | Built security triage and remediation workflows that reduced response time from 4 hours to 15 minutes. Pair automation with monitoring, audit evidence, runbooks, and recovery paths. |
+| Led a phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations, including attribute mappings and authorization troubleshooting. | Built HRIS-to-Okta onboarding that reduced setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms for lifecycle, licensing, compliance, and operational data sync. | Built security triage and remediation workflows that reduced response time from 4 hours to 15 minutes. Pair automation with monitoring, audit evidence, runbooks, and recovery paths. |
 
 ## Platform point of view
 
