@@ -6,7 +6,7 @@ I make access changes and onboarding less manual with clear policy, safe default
 
 [LinkedIn](https://linkedin.com/in/alice-l-248502224)
 
-![A systems landscape showing source attributes flowing through policy and lifecycle orchestration to SaaS, endpoint, and cloud state.](./assets/identity-platform-landscape.svg)
+![A systems landscape showing source attributes flowing through policy and lifecycle orchestration to SaaS, endpoint, and cloud state.](./assets/identity-lifecycle-flow.svg)
 
 ## Identity platform work
 
