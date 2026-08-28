@@ -12,7 +12,7 @@ I make access changes, onboarding, and endpoint management less manual with clea
 
 | Identity architecture | Lifecycle automation | Security &amp; endpoints |
 | --- | --- | --- |
-| Phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations. | HRIS-to-Okta onboarding cut setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms. | Healthcare security engineering across 200+ facilities and 10,000+ managed devices. Deployed Kandji MDM for 300+ MacBooks with automated patching and 95% compliance; built triage and remediation that cut response from 4 hours to 15 minutes. |
+| Phased Identity Provider migration for 400 users with zero downtime, validation checkpoints, and rollback planning. Configured 200+ SaaS SSO/SAML integrations. | HRIS-to-Okta onboarding cut setup from 4 hours to 30 minutes. Built 50+ Okta Workflows and API/webhook integrations across 15+ SaaS platforms. | Deployed Kandji MDM for 300+ MacBooks with automated patching and 95% compliance; built triage and remediation that cut response from 4 hours to 15 minutes. |
 
 ## Selected public work
 
